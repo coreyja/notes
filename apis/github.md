@@ -12,6 +12,7 @@ This works with oauth tokens and personal access tokens
 ## Pull Request Diffs
 
 To get the full diff of a PR you need to use a special accept header `application/vnd.github.v3.diff` with the PR API URL.
+
 Ex: `https://api.github.com/repos/coreyja/notes/pulls/1`
 
 Hitting this URL without an accept header will return the standard JSON api response

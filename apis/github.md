@@ -1,14 +1,13 @@
 # Github API
 
-
 ## Auth
 
-`User-Agent` headers are required: https://docs.github.com/en/rest/overview/resources-in-the-rest-api#user-agent-required
+`User-Agent` headers are required
+> Source [https://docs.github.com/en/rest/overview/resources-in-the-rest-api#user-agent-required](https://docs.github.com/en/rest/overview/resources-in-the-rest-api#user-agent-required)
 
-Preferred auth is with the `Authorization: token $GITHUB_TOKEN` header
-Source: https://docs.github.com/en/rest/overview/resources-in-the-rest-api#oauth2-token-sent-in-a-header=
-
+Preferred auth is with the `Authorization: token $GITHUB_TOKEN` header.
 This works with oauth tokens and personal access tokens
+> Source: [https://docs.github.com/en/rest/overview/resources-in-the-rest-api#oauth2-token-sent-in-a-header=](https://docs.github.com/en/rest/overview/resources-in-the-rest-api#oauth2-token-sent-in-a-header=)
 
 ## Pull Request Diffs
 

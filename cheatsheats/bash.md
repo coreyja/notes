@@ -71,3 +71,29 @@ for file in $(find . -type f -name "*.rb"); do rubyfmt "$file" > “${file}.tmp"
 ```bash
 curl -fsL $URL -o /dev/null
 ```
+
+### Use Previous Arguments
+
+`!$` uses the last argument from the previous command
+
+Ex:
+
+```bash
+mv tmp.log tmp/
+ls !$
+```
+
+`!*` gets ALL the previous args
+
+```bash
+# Typoed Command name
+rpsec ~/some_file_spec.rb ~/other_file_spec.rb
+rspec !*
+```
+
+More Ways to grab args
+
+```bash
+echo !:2 # Grab just the second arg from the last command
+echo !1:3 # Grab the first, second and third arg
+```

@@ -1,3 +1,5 @@
+# Bundler
+
 ## How to Update Gems
 
 ```bash
@@ -5,7 +7,6 @@ bundle update
 ```
 
 The same as removing `Gemfile.lock` and running `bundle install`
-
 
 ```bash
 bundle update GEM_NAME

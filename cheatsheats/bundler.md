@@ -1,6 +1,4 @@
- # bundler [Ruby]
-
- # How to Update Gems
+## How to Update Gems
 
 ```bash
 bundle update

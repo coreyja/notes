@@ -2,10 +2,10 @@
 
 * [My Notes](README.md)
 
-## 📝 Cheatsheats
+## 📝 Cheatsheets
 
-* [Bash](cheatsheats/bash.md)
-* [Bundler](cheatsheats/bundler.md)
+* [Bash](cheatsheets/bash.md)
+* [Bundler](cheatsheets/bundler.md)
 
 ## 🌐 APIs
 

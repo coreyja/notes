@@ -6,6 +6,7 @@
 
 * [Bash](cheatsheets/bash.md)
 * [Bundler](cheatsheets/bundler.md)
+* [Delayed Job](cheatsheets/delayed-job.md)
 
 ## 🌐 APIs
 

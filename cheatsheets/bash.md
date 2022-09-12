@@ -1,5 +1,11 @@
 # Bash
 
+## Bash Script Shebang
+
+```bash
+#!/usr/bin/env bash
+```
+
 ## Find/Replace in Directory
 
 ```bash
